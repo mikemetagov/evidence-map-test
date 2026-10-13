@@ -1,0 +1,393 @@
+{
+ "cases": [
+  {
+   "case_id": "UC01",
+   "lineage_id": "SRC-UNI-001",
+   "title": "MOCK Stablecoin cash transfers for displaced households",
+   "portfolio": "UNICEF Venture Fund",
+   "blockchain_function": "Payments and transfers",
+   "deployment_status": "Scaled",
+   "region": "Sub-Saharan Africa",
+   "country": "Kenya",
+   "blockchain_added_value": "Demonstrated",
+   "year_start": "2022",
+   "case_url": "https://example.org/cases/uc01",
+   "summary": "Mock record. Stablecoin disbursement to household wallets with local cash-out agents."
+  },
+  {
+   "case_id": "UC02",
+   "lineage_id": "SRC-MCV-004",
+   "title": "MOCK Land title registry pilot",
+   "portfolio": "Mercy Corps Ventures",
+   "blockchain_function": "Registries and records",
+   "deployment_status": "Stalled pilot",
+   "region": "South Asia",
+   "country": "Bangladesh",
+   "blockchain_added_value": "Asserted only",
+   "year_start": "2021",
+   "case_url": "https://example.org/cases/uc02",
+   "summary": "Mock record. Distributed ledger record of parcel transfers alongside the paper registry."
+  },
+  {
+   "case_id": "UC03",
+   "lineage_id": "SRC-FIL-002",
+   "title": "MOCK Tokenized mangrove carbon credits",
+   "portfolio": "Filecoin Foundation",
+   "blockchain_function": "Tokenized assets and credits",
+   "deployment_status": "Pilot",
+   "region": "Latin America",
+   "country": "Colombia",
+   "blockchain_added_value": "Unclear",
+   "year_start": "2023",
+   "case_url": "https://example.org/cases/uc03",
+   "summary": "Mock record. Community-verified restoration data minted as tradable credits."
+  },
+  {
+   "case_id": "UC04",
+   "lineage_id": "SRC-GSR-001",
+   "title": "MOCK Quadratic funding round for public goods",
+   "portfolio": "GSR Foundation grantees",
+   "blockchain_function": "Governance and allocation",
+   "deployment_status": "Scaled",
+   "region": "Global",
+   "country": "",
+   "blockchain_added_value": "Demonstrated",
+   "year_start": "2021",
+   "case_url": "https://example.org/cases/uc04",
+   "summary": "Mock record. Recurring matching rounds allocating donor funds by community contributions."
+  },
+  {
+   "case_id": "UC05",
+   "lineage_id": "SRC-MCV-009",
+   "title": "MOCK Cocoa supply-chain traceability",
+   "portfolio": "Mercy Corps Ventures",
+   "blockchain_function": "Registries and records",
+   "deployment_status": "Pilot",
+   "region": "Sub-Saharan Africa",
+   "country": "Ghana",
+   "blockchain_added_value": "Asserted only",
+   "year_start": "2022",
+   "case_url": "https://example.org/cases/uc05",
+   "summary": "Mock record. Farm-to-export batch tracking for premium payments."
+  },
+  {
+   "case_id": "UC06",
+   "lineage_id": "SRC-UNI-007",
+   "title": "MOCK Portable digital identity wallet",
+   "portfolio": "UNICEF Venture Fund",
+   "blockchain_function": "Identity and credentials",
+   "deployment_status": "Scaled",
+   "region": "South Asia",
+   "country": "India",
+   "blockchain_added_value": "Not demonstrated",
+   "year_start": "2020",
+   "case_url": "https://example.org/cases/uc06",
+   "summary": "Mock record. Self-held credentials for health and school enrolment."
+  },
+  {
+   "case_id": "UC07",
+   "lineage_id": "SRC-GSR-005",
+   "title": "MOCK Conditional grant streaming to schools",
+   "portfolio": "GSR Foundation grantees",
+   "blockchain_function": "Payments and transfers",
+   "deployment_status": "Pilot",
+   "region": "Latin America",
+   "country": "Argentina",
+   "blockchain_added_value": "Demonstrated",
+   "year_start": "2024",
+   "case_url": "https://example.org/cases/uc07",
+   "summary": "Mock record. Milestone-triggered stablecoin grants to school committees."
+  },
+  {
+   "case_id": "UC08",
+   "lineage_id": "SRC-FIL-006",
+   "title": "MOCK Open archive of humanitarian datasets",
+   "portfolio": "Filecoin Foundation",
+   "blockchain_function": "Registries and records",
+   "deployment_status": "Scaled",
+   "region": "Global",
+   "country": "",
+   "blockchain_added_value": "Unclear",
+   "year_start": "2022",
+   "case_url": "https://example.org/cases/uc08",
+   "summary": "Mock record. Content-addressed storage of public humanitarian data."
+  },
+  {
+   "case_id": "UC09",
+   "lineage_id": "SRC-UNI-011",
+   "title": "MOCK Microinsurance payouts triggered by weather data",
+   "portfolio": "UNICEF Venture Fund",
+   "blockchain_function": "Payments and transfers",
+   "deployment_status": "Pilot",
+   "region": "Sub-Saharan Africa",
+   "country": "Rwanda",
+   "blockchain_added_value": "Asserted only",
+   "year_start": "2023",
+   "case_url": "https://example.org/cases/uc09",
+   "summary": "Mock record. Parametric payouts to farmer wallets after rainfall shortfalls."
+  },
+  {
+   "case_id": "UC10",
+   "lineage_id": "SRC-GSR-008",
+   "title": "MOCK Community treasury for disaster response",
+   "portfolio": "GSR Foundation grantees",
+   "blockchain_function": "Governance and allocation",
+   "deployment_status": "Pilot",
+   "region": "Southeast Asia",
+   "country": "Philippines",
+   "blockchain_added_value": "Unclear",
+   "year_start": "2024",
+   "case_url": "https://example.org/cases/uc10",
+   "summary": "Mock record. Multi-signature treasury with local voting on relief spending."
+  },
+  {
+   "case_id": "UC11",
+   "lineage_id": "SRC-MCV-012",
+   "title": "MOCK Tokenized remittance savings groups",
+   "portfolio": "Mercy Corps Ventures",
+   "blockchain_function": "Tokenized assets and credits",
+   "deployment_status": "Stalled pilot",
+   "region": "Latin America",
+   "country": "Guatemala",
+   "blockchain_added_value": "Not demonstrated",
+   "year_start": "2021",
+   "case_url": "https://example.org/cases/uc11",
+   "summary": "Mock record. Savings-group shares held as tokens to unlock credit."
+  },
+  {
+   "case_id": "UC12",
+   "lineage_id": "SRC-UNI-014",
+   "title": "MOCK Verifiable school attendance credentials",
+   "portfolio": "UNICEF Venture Fund",
+   "blockchain_function": "Identity and credentials",
+   "deployment_status": "Pilot",
+   "region": "Southeast Asia",
+   "country": "Cambodia",
+   "blockchain_added_value": "Asserted only",
+   "year_start": "2023",
+   "case_url": "https://example.org/cases/uc12",
+   "summary": "Mock record. Attendance records issued as credentials to support stipend eligibility."
+  }
+ ],
+ "records": [
+  {
+   "case_id": "UC01",
+   "outcome_domain": "Speed of delivery",
+   "evidence_grade": "3",
+   "grade_rationale": "Mock: compared with prior bank transfer cohort.",
+   "evidence_url": "https://example.org/evidence/uc01-a"
+  },
+  {
+   "case_id": "UC01",
+   "outcome_domain": "Cost to deliver",
+   "evidence_grade": "2",
+   "grade_rationale": "Mock: partner monitoring data on fees.",
+   "evidence_url": "https://example.org/evidence/uc01-b"
+  },
+  {
+   "case_id": "UC02",
+   "outcome_domain": "Transparency and auditability",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: claims in launch materials only.",
+   "evidence_url": "https://example.org/evidence/uc02"
+  },
+  {
+   "case_id": "UC03",
+   "outcome_domain": "Funding mobilized",
+   "evidence_grade": "2",
+   "grade_rationale": "Mock: on-chain sales records.",
+   "evidence_url": "https://example.org/evidence/uc03"
+  },
+  {
+   "case_id": "UC04",
+   "outcome_domain": "Funding mobilized",
+   "evidence_grade": "4",
+   "grade_rationale": "Mock: difference-in-differences across rounds.",
+   "evidence_url": "https://example.org/evidence/uc04-a"
+  },
+  {
+   "case_id": "UC04",
+   "outcome_domain": "Transparency and auditability",
+   "evidence_grade": "3",
+   "grade_rationale": "Mock: comparison with grant program before rounds.",
+   "evidence_url": "https://example.org/evidence/uc04-b"
+  },
+  {
+   "case_id": "UC05",
+   "outcome_domain": "Cost to deliver",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: vendor claims.",
+   "evidence_url": "https://example.org/evidence/uc05"
+  },
+  {
+   "case_id": "UC05",
+   "outcome_domain": "Transparency and auditability",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: vendor claims.",
+   "evidence_url": "https://example.org/evidence/uc05"
+  },
+  {
+   "case_id": "UC06",
+   "outcome_domain": "Inclusion and access",
+   "evidence_grade": "5",
+   "grade_rationale": "Mock: randomized rollout by district.",
+   "evidence_url": "https://example.org/evidence/uc06"
+  },
+  {
+   "case_id": "UC07",
+   "outcome_domain": "Speed of delivery",
+   "evidence_grade": "2",
+   "grade_rationale": "Mock: disbursement logs.",
+   "evidence_url": "https://example.org/evidence/uc07"
+  },
+  {
+   "case_id": "UC07",
+   "outcome_domain": "Inclusion and access",
+   "evidence_grade": "2",
+   "grade_rationale": "Mock: enrolment monitoring.",
+   "evidence_url": "https://example.org/evidence/uc07"
+  },
+  {
+   "case_id": "UC08",
+   "outcome_domain": "Transparency and auditability",
+   "evidence_grade": "2",
+   "grade_rationale": "Mock: access statistics.",
+   "evidence_url": "https://example.org/evidence/uc08"
+  },
+  {
+   "case_id": "UC09",
+   "outcome_domain": "Speed of delivery",
+   "evidence_grade": "3",
+   "grade_rationale": "Mock: compared with conventional claims process.",
+   "evidence_url": "https://example.org/evidence/uc09"
+  },
+  {
+   "case_id": "UC09",
+   "outcome_domain": "Cost to deliver",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: projected savings only.",
+   "evidence_url": "https://example.org/evidence/uc09"
+  },
+  {
+   "case_id": "UC10",
+   "outcome_domain": "Funding mobilized",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: treasury dashboard claims.",
+   "evidence_url": "https://example.org/evidence/uc10"
+  },
+  {
+   "case_id": "UC11",
+   "outcome_domain": "Inclusion and access",
+   "evidence_grade": "1",
+   "grade_rationale": "Mock: program narrative only.",
+   "evidence_url": "https://example.org/evidence/uc11"
+  },
+  {
+   "case_id": "UC12",
+   "outcome_domain": "Inclusion and access",
+   "evidence_grade": "3",
+   "grade_rationale": "Mock: comparison schools without credentials.",
+   "evidence_url": "https://example.org/evidence/uc12"
+  }
+ ],
+ "codebook": {
+  "blockchain_added_value": [
+   {
+    "value": "Demonstrated",
+    "definition": "Evidence that the blockchain component caused the gain."
+   },
+   {
+    "value": "Asserted only",
+    "definition": "Gain attributed to blockchain without evidence."
+   },
+   {
+    "value": "Unclear",
+    "definition": "Cannot separate blockchain from other components."
+   },
+   {
+    "value": "Not demonstrated",
+    "definition": "Evidence shows no added value from blockchain."
+   }
+  ],
+  "blockchain_function": [
+   {
+    "value": "Payments and transfers",
+    "definition": "Moving value to recipients."
+   },
+   {
+    "value": "Registries and records",
+    "definition": "Recording ownership, provenance or data."
+   },
+   {
+    "value": "Identity and credentials",
+    "definition": "Issuing or verifying identity or eligibility."
+   },
+   {
+    "value": "Tokenized assets and credits",
+    "definition": "Representing assets or impact claims as tokens."
+   },
+   {
+    "value": "Governance and allocation",
+    "definition": "Collective decisions over funds."
+   }
+  ],
+  "deployment_status": [
+   {
+    "value": "Pilot",
+    "definition": "Live with limited users or time."
+   },
+   {
+    "value": "Scaled",
+    "definition": "Live beyond pilot scope."
+   },
+   {
+    "value": "Stalled pilot",
+    "definition": "Pilot ended without scale-up."
+   }
+  ],
+  "evidence_grade": [
+   {
+    "value": "1",
+    "definition": "Claims only: assertions without data."
+   },
+   {
+    "value": "2",
+    "definition": "Monitoring data: routine program or on-chain data without a comparison."
+   },
+   {
+    "value": "3",
+    "definition": "Comparative: before-after or comparison group without adjustment for selection."
+   },
+   {
+    "value": "4",
+    "definition": "Quasi-experimental: credible design such as difference-in-differences or regression discontinuity."
+   },
+   {
+    "value": "5",
+    "definition": "Experimental: randomized assignment."
+   }
+  ],
+  "outcome_domain": [
+   {
+    "value": "Speed of delivery",
+    "definition": "Time from funding decision to receipt by the end recipient."
+   },
+   {
+    "value": "Cost to deliver",
+    "definition": "Transaction and operating cost per unit delivered."
+   },
+   {
+    "value": "Funding mobilized",
+    "definition": "New or additional funding raised or allocated."
+   },
+   {
+    "value": "Inclusion and access",
+    "definition": "Reach to intended or previously excluded groups."
+   },
+   {
+    "value": "Transparency and auditability",
+    "definition": "Ability of funders and communities to verify flows and decisions."
+   }
+  ]
+ }
+}

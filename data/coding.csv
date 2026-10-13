@@ -1,0 +1,18 @@
+case_id,outcome_domain,evidence_grade,grade_rationale,evidence_url
+UC01,Speed of delivery,3,Mock: compared with prior bank transfer cohort.,https://example.org/evidence/uc01-a
+UC01,Cost to deliver,2,Mock: partner monitoring data on fees.,https://example.org/evidence/uc01-b
+UC02,Transparency and auditability,1,Mock: claims in launch materials only.,https://example.org/evidence/uc02
+UC03,Funding mobilized,2,Mock: on-chain sales records.,https://example.org/evidence/uc03
+UC04,Funding mobilized,4,Mock: difference-in-differences across rounds.,https://example.org/evidence/uc04-a
+UC04,Transparency and auditability,3,Mock: comparison with grant program before rounds.,https://example.org/evidence/uc04-b
+UC05,Cost to deliver,1,Mock: vendor claims.,https://example.org/evidence/uc05
+UC05,Transparency and auditability,1,Mock: vendor claims.,https://example.org/evidence/uc05
+UC06,Inclusion and access,5,Mock: randomized rollout by district.,https://example.org/evidence/uc06
+UC07,Speed of delivery,2,Mock: disbursement logs.,https://example.org/evidence/uc07
+UC07,Inclusion and access,2,Mock: enrolment monitoring.,https://example.org/evidence/uc07
+UC08,Transparency and auditability,2,Mock: access statistics.,https://example.org/evidence/uc08
+UC09,Speed of delivery,3,Mock: compared with conventional claims process.,https://example.org/evidence/uc09
+UC09,Cost to deliver,1,Mock: projected savings only.,https://example.org/evidence/uc09
+UC10,Funding mobilized,1,Mock: treasury dashboard claims.,https://example.org/evidence/uc10
+UC11,Inclusion and access,1,Mock: program narrative only.,https://example.org/evidence/uc11
+UC12,Inclusion and access,3,Mock: comparison schools without credentials.,https://example.org/evidence/uc12

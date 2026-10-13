@@ -1,0 +1,1377 @@
+{
+ "CodeSets": [
+  {
+   "SetName": "Evidence map",
+   "SetType": {
+    "SetTypeName": "Standard"
+   },
+   "Attributes": {
+    "AttributesList": [
+     {
+      "AttributeId": 1,
+      "AttributeName": "Evidence grade",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 1001,
+         "AttributeName": "1 - Claims only",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1002,
+         "AttributeName": "2 - Monitoring data",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1003,
+         "AttributeName": "3 - Comparative",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1004,
+         "AttributeName": "4 - Quasi-experimental",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 1005,
+         "AttributeName": "5 - Experimental",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 2,
+      "AttributeName": "Outcome domain",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 2001,
+         "AttributeName": "Speed of delivery",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2002,
+         "AttributeName": "Cost to deliver",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2003,
+         "AttributeName": "Funding mobilized",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2004,
+         "AttributeName": "Inclusion and access",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 2005,
+         "AttributeName": "Transparency and auditability",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 3,
+      "AttributeName": "Blockchain function",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 3001,
+         "AttributeName": "Payments and transfers",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3002,
+         "AttributeName": "Registries and records",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3003,
+         "AttributeName": "Identity and credentials",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3004,
+         "AttributeName": "Tokenized assets and credits",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 3005,
+         "AttributeName": "Governance and allocation",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 4,
+      "AttributeName": "Deployment status",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 4001,
+         "AttributeName": "Pilot",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 4002,
+         "AttributeName": "Scaled",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 4003,
+         "AttributeName": "Stalled pilot",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 5,
+      "AttributeName": "Blockchain added value",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 5001,
+         "AttributeName": "Demonstrated",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5002,
+         "AttributeName": "Asserted only",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5003,
+         "AttributeName": "Unclear",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 5004,
+         "AttributeName": "Not demonstrated",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 6,
+      "AttributeName": "Portfolio",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 6001,
+         "AttributeName": "Filecoin Foundation",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6002,
+         "AttributeName": "GSR Foundation grantees",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6003,
+         "AttributeName": "Mercy Corps Ventures",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 6004,
+         "AttributeName": "UNICEF Venture Fund",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     },
+     {
+      "AttributeId": 7,
+      "AttributeName": "Region",
+      "AttributeDescription": "",
+      "AttributeType": "Not selectable (no checkbox)",
+      "Attributes": {
+       "AttributesList": [
+        {
+         "AttributeId": 7001,
+         "AttributeName": "Global",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7002,
+         "AttributeName": "Latin America",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7003,
+         "AttributeName": "South Asia",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7004,
+         "AttributeName": "Southeast Asia",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        },
+        {
+         "AttributeId": 7005,
+         "AttributeName": "Sub-Saharan Africa",
+         "AttributeDescription": "",
+         "AttributeType": "Selectable (show checkbox)"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "References": [
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Kenya",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100001,
+   "Title": "MOCK Stablecoin cash transfers for displaced households [Speed of delivery]",
+   "ShortTitle": "UC01",
+   "URL": "https://example.org/cases/uc01",
+   "Abstract": "Mock record. Stablecoin disbursement to household wallets with local cash-out agents. Evidence: Mock: compared with prior bank transfer cohort.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-001"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Kenya",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100002,
+   "Title": "MOCK Stablecoin cash transfers for displaced households [Cost to deliver]",
+   "ShortTitle": "UC01",
+   "URL": "https://example.org/cases/uc01",
+   "Abstract": "Mock record. Stablecoin disbursement to household wallets with local cash-out agents. Evidence: Mock: partner monitoring data on fees.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-001"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Bangladesh",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100003,
+   "Title": "MOCK Land title registry pilot [Transparency and auditability]",
+   "ShortTitle": "UC02",
+   "URL": "https://example.org/cases/uc02",
+   "Abstract": "Mock record. Distributed ledger record of parcel transfers alongside the paper registry. Evidence: Mock: claims in launch materials only.",
+   "Institution": "Mercy Corps Ventures",
+   "Keywords": "SRC-MCV-004"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Colombia",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100004,
+   "Title": "MOCK Tokenized mangrove carbon credits [Funding mobilized]",
+   "ShortTitle": "UC03",
+   "URL": "https://example.org/cases/uc03",
+   "Abstract": "Mock record. Community-verified restoration data minted as tradable credits. Evidence: Mock: on-chain sales records.",
+   "Institution": "Filecoin Foundation",
+   "Keywords": "SRC-FIL-002"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7001,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100005,
+   "Title": "MOCK Quadratic funding round for public goods [Funding mobilized]",
+   "ShortTitle": "UC04",
+   "URL": "https://example.org/cases/uc04",
+   "Abstract": "Mock record. Recurring matching rounds allocating donor funds by community contributions. Evidence: Mock: difference-in-differences across rounds.",
+   "Institution": "GSR Foundation grantees",
+   "Keywords": "SRC-GSR-001"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7001,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100006,
+   "Title": "MOCK Quadratic funding round for public goods [Transparency and auditability]",
+   "ShortTitle": "UC04",
+   "URL": "https://example.org/cases/uc04",
+   "Abstract": "Mock record. Recurring matching rounds allocating donor funds by community contributions. Evidence: Mock: comparison with grant program before rounds.",
+   "Institution": "GSR Foundation grantees",
+   "Keywords": "SRC-GSR-001"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Ghana",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100007,
+   "Title": "MOCK Cocoa supply-chain traceability [Cost to deliver]",
+   "ShortTitle": "UC05",
+   "URL": "https://example.org/cases/uc05",
+   "Abstract": "Mock record. Farm-to-export batch tracking for premium payments. Evidence: Mock: vendor claims.",
+   "Institution": "Mercy Corps Ventures",
+   "Keywords": "SRC-MCV-009"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Ghana",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100008,
+   "Title": "MOCK Cocoa supply-chain traceability [Transparency and auditability]",
+   "ShortTitle": "UC05",
+   "URL": "https://example.org/cases/uc05",
+   "Abstract": "Mock record. Farm-to-export batch tracking for premium payments. Evidence: Mock: vendor claims.",
+   "Institution": "Mercy Corps Ventures",
+   "Keywords": "SRC-MCV-009"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2020",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "India",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7003,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100009,
+   "Title": "MOCK Portable digital identity wallet [Inclusion and access]",
+   "ShortTitle": "UC06",
+   "URL": "https://example.org/cases/uc06",
+   "Abstract": "Mock record. Self-held credentials for health and school enrolment. Evidence: Mock: randomized rollout by district.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-007"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2024",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Argentina",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100010,
+   "Title": "MOCK Conditional grant streaming to schools [Speed of delivery]",
+   "ShortTitle": "UC07",
+   "URL": "https://example.org/cases/uc07",
+   "Abstract": "Mock record. Milestone-triggered stablecoin grants to school committees. Evidence: Mock: disbursement logs.",
+   "Institution": "GSR Foundation grantees",
+   "Keywords": "SRC-GSR-005"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2024",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Argentina",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100011,
+   "Title": "MOCK Conditional grant streaming to schools [Inclusion and access]",
+   "ShortTitle": "UC07",
+   "URL": "https://example.org/cases/uc07",
+   "Abstract": "Mock record. Milestone-triggered stablecoin grants to school committees. Evidence: Mock: enrolment monitoring.",
+   "Institution": "GSR Foundation grantees",
+   "Keywords": "SRC-GSR-005"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2022",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7001,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100012,
+   "Title": "MOCK Open archive of humanitarian datasets [Transparency and auditability]",
+   "ShortTitle": "UC08",
+   "URL": "https://example.org/cases/uc08",
+   "Abstract": "Mock record. Content-addressed storage of public humanitarian data. Evidence: Mock: access statistics.",
+   "Institution": "Filecoin Foundation",
+   "Keywords": "SRC-FIL-006"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Rwanda",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100013,
+   "Title": "MOCK Microinsurance payouts triggered by weather data [Speed of delivery]",
+   "ShortTitle": "UC09",
+   "URL": "https://example.org/cases/uc09",
+   "Abstract": "Mock record. Parametric payouts to farmer wallets after rainfall shortfalls. Evidence: Mock: compared with conventional claims process.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-011"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Rwanda",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7005,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100014,
+   "Title": "MOCK Microinsurance payouts triggered by weather data [Cost to deliver]",
+   "ShortTitle": "UC09",
+   "URL": "https://example.org/cases/uc09",
+   "Abstract": "Mock record. Parametric payouts to farmer wallets after rainfall shortfalls. Evidence: Mock: projected savings only.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-011"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2024",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Philippines",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3005,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100015,
+   "Title": "MOCK Community treasury for disaster response [Funding mobilized]",
+   "ShortTitle": "UC10",
+   "URL": "https://example.org/cases/uc10",
+   "Abstract": "Mock record. Multi-signature treasury with local voting on relief spending. Evidence: Mock: treasury dashboard claims.",
+   "Institution": "GSR Foundation grantees",
+   "Keywords": "SRC-GSR-008"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2021",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Guatemala",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7002,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100016,
+   "Title": "MOCK Tokenized remittance savings groups [Inclusion and access]",
+   "ShortTitle": "UC11",
+   "URL": "https://example.org/cases/uc11",
+   "Abstract": "Mock record. Savings-group shares held as tokens to unlock credit. Evidence: Mock: program narrative only.",
+   "Institution": "Mercy Corps Ventures",
+   "Keywords": "SRC-MCV-012"
+  },
+  {
+   "ParentTitle": "",
+   "DateCreated": "",
+   "CreatedBy": "",
+   "DateEdited": "",
+   "EditedBy": "",
+   "Year": "2023",
+   "Month": "",
+   "StandardNumber": "",
+   "City": "",
+   "Country": "Cambodia",
+   "Publisher": "",
+   "Volume": "",
+   "Pages": "",
+   "Edition": "",
+   "Issue": "",
+   "Availability": "",
+   "OldItemId": "",
+   "Comments": "",
+   "TypeName": "",
+   "Authors": "",
+   "ParentAuthors": "",
+   "DOI": "",
+   "ItemStatus": "",
+   "ItemStatusTooltip": "",
+   "QuickCitation": "",
+   "Codes": [
+    {
+     "AttributeId": 1003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 2004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 3003,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 4001,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 5002,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 6004,
+     "ItemAttributeFullTextDetails": []
+    },
+    {
+     "AttributeId": 7004,
+     "ItemAttributeFullTextDetails": []
+    }
+   ],
+   "Outcomes": [],
+   "ItemId": 100017,
+   "Title": "MOCK Verifiable school attendance credentials [Inclusion and access]",
+   "ShortTitle": "UC12",
+   "URL": "https://example.org/cases/uc12",
+   "Abstract": "Mock record. Attendance records issued as credentials to support stipend eligibility. Evidence: Mock: comparison schools without credentials.",
+   "Institution": "UNICEF Venture Fund",
+   "Keywords": "SRC-UNI-014"
+  }
+ ]
+}
